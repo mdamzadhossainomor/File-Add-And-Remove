@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add & Remove </title>
+    <link rel="stylesheet" href="output/main.css">
+</head>
+
+<body>
+
+    <form action="" class=" bg-slate-300  w-96 mx-auto px-5 py-5 mt-4 rounded-md">
+        <div class="flex flex-col">
+            <label for="frameWork" class="text-xl">Framework</label>
+            <input type="text" id="frameWork" class="mt-2 mb-3 px-3 rounded-md" placeholder="Write your text">
+            <button class="bg-blue-500 text-white rounded-md font-semibold text-xl" id="btnAdd">Add</button>
+        </div>
+
+
+        <div class="mt-3">
+            <label for="addList" class="text-xl">Add List</label>
+            <select name="" id="addList" multiple class="w-[345px]  no-scrollbar"></select>
+            <button id="btnRemove"
+                class="bg-red-500 mt-3  px-2 rounded-md  hover:scale-105 duration-150 hover:bg-red-600">Remove
+                Item</button>
+        </div>
+
+
+
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
